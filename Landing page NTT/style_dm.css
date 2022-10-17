@@ -1,0 +1,144 @@
+body {
+	height: 100%;
+	width: 100%;
+	background-image: url("digital_man.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Roboto';
+	overflow: hidden;
+}
+
+.category p {
+	text-align: left;
+	margin-left: 10vh;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Roboto'
+}
+
+p {
+	text-align: center;
+}
+
+.firtrow p:hover {
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1);
+}
+
+.secondrow p:hover {
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1);
+}
+
+.nttlogo {
+	height: 20%;
+	width: 20%;
+	height: auto;
+	margin-left: 8vh;
+}
+
+.category {
+	margin-top: 50px;
+	width: 100%;
+}
+
+.firtrow {
+	margin-left: 10vh;
+	margin-top: 150px;
+	width: 100%;
+	height: 20%;
+	display: flex;
+}
+
+.secondrow {
+	margin-left: 10vh;
+	margin-top: 25px;
+	width: 100%;
+	height: 20%;
+	display: flex;
+}
+
+.block {
+	background-color: #6490DC;
+	width: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 25px;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.ibp {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-image: url("ntt_data.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #03131B;
+	width: 50%;
+	height: 50vh;
+	/*background-position: center;*/
+}
+
+.ibp:hover {
+	-ms-transform: scale(1.05); /* IE 9 */
+	-webkit-transform: scale(1.05); /* Safari 3-8 */
+	transform: scale(1.05);
+}
+
+@media only screen and (max-width: 1200px) {
+	body {
+		height: 100%;
+		width: 100%;
+		background-image: url("digital_man.jpeg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: white;
+		font-size: 2vh;
+		font-weight: bold;
+		font-family: 'Roboto';
+		overflow: hidden;
+	}
+	.nttlogo {
+		width: 50%;
+		height: auto;
+	}
+	.firtrow {
+		margin-top: 50px;
+		margin-left: 0px;
+		width: 100%;
+		height: auto;
+		display: inline;
+	}
+	.secondrow {
+		margin-top: 50px;
+		margin-left: 0px;
+		width: 100%;
+		height: auto;
+		display: inline;
+	}
+	.block {
+		background-color: #6490DC;
+		width: 100%;
+		height: auto;
+		display: inline-block;
+		justify-content: center;
+		align-items: center;
+		margin-top: 20px;
+		margin-bottom: 0px;
+		margin-right: 10px;
+		margin-left: 10px;
+		display: inline-block;
+	}
+}
